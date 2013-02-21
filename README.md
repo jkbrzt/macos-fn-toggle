@@ -1,6 +1,6 @@
 # fn.app
 
-This is an Automator workflow-created app that toggles the
+This is an app created in Automator. It toggles the
 **"Use all F1, F2, etc. keys as standard function keys"**
 option in Mac OS System Preferences. A task that is tedious
 when done often (which programmers tend to do).
@@ -27,8 +27,8 @@ Copy `fn.app` into `/Applications`.
 Run the app. The fastest way to do it is from Spotlight:
 
 1. Press `⌘ + space` (or similar) to open Spotlight.
-2. Type "fn", `fn.app` should be the Top Hit.
-3. Hit RETURN.
+2. Type `fn`, `fn.app` should be the Top Hit.
+3. Hit `Enter`.
 
 
 
