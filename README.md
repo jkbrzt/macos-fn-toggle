@@ -20,7 +20,16 @@ quit application "System Preferences"
 
 ## Installation
 
-Copy `fn.app` into `/Applications`.
+Copy the `fn.app` folder into `/Applications`.
+
+In OS X 10.9 (Mavericks) and later, you also need to:
+
+1. go to `System Preferences > Security & Privacy > Accessibility > Privacy` 
+2. tick `fn.app` under `Allow the apps below to control your computer`.
+
+
+![preferences](https://f.cloud.github.com/assets/326885/1463976/de2c61f0-453c-11e3-9129-f0d992aeb2a8.png)
+
 
 ## Usage
 
