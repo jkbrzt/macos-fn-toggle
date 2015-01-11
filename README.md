@@ -24,8 +24,9 @@ Copy the `fn.app` folder into `/Applications`.
 
 In OS X 10.9 (Mavericks) and later, you also need to:
 
-1. go to `System Preferences > Security & Privacy > Accessibility > Privacy` 
-2. tick `fn.app` under `Allow the apps below to control your computer`.
+1. try to open the `fn` app once either from spotlight or from `Applications` folder (otherwise it will not appear in accesibility menu in step 3)
+2. go to `System Preferences > Security & Privacy > Accessibility > Privacy` 
+3. tick `fn.app` under `Allow the apps below to control your computer`.
 
 
 ![preferences](https://f.cloud.github.com/assets/326885/1463976/de2c61f0-453c-11e3-9129-f0d992aeb2a8.png)
@@ -39,5 +40,12 @@ Run the app. The fastest way to do it is from Spotlight:
 2. Type `fn`, `fn.app` should be the Top Hit.
 3. Hit `Enter`.
 
+## Enable Keyboard shortcut
+
+Create a service that runs fn.app then assign a key to it
+
+1. copy `fn.workflow` folder into `~/Library/Services`
+2. Goto `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` (at the end of the list) and assign a new shortcut to `fn` service
 
 
+![keybard-shortcut](https://github.com/alexproca/macos-fn-toggle/blob/master/keyboard-shortcut.png)
