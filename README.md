@@ -1,8 +1,8 @@
 # fn.app
 
-This is an app created in Automator. It toggles the
+This is an Automator app that toggles the
 **"Use all F1, F2, etc. keys as standard function keys"**
-option in Mac OS System Preferences. A task that is tedious
+option in macOS System Preferences. A task that is tedious
 when done often (which programmers tend to do).
 
 All it does is that it executes [this AppleScript snippet](http://apple.stackexchange.com/questions/59178/toggle-use-all-f1-f2-as-standard-keys-via-script#answer-60496):
