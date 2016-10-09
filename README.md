@@ -28,7 +28,7 @@ In OS X 10.9 (Mavericks) and later, you also need to:
 
 1. Open the `fn` app once either from spotlight or from `Applications` folder (it will do nothing but it's needed for the app to appear in  the accessibility menu in step 3)
 2. Go to `System Preferences` > `Security & Privacy` > `Accessibility` > `Privacy` 
-3. Tick `fn.app` under `Allow the apps below to control your computer`.
+3. `Click the lock to make changes` and tick `fn.app` under `Allow the apps below to control your computer`.
 
 
 ![preferences](https://github.com/jkbrzt/macos-fn-toggle/blob/master/privacy-settings.png)
