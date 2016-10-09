@@ -26,9 +26,9 @@ Run `make install` to copy `fn.app` to `/Applications` and `fn.workflow` to `~/L
 
 In OS X 10.9 (Mavericks) and later, you also need to:
 
-1. try to open the `fn` app once either from spotlight or from `Applications` folder (otherwise it will not appear in accessibility menu in step 3)
-2. go to `System Preferences > Security & Privacy > Accessibility > Privacy` 
-3. tick `fn.app` under `Allow the apps below to control your computer`.
+1. Open the `fn` app once either from spotlight or from `Applications` folder (it will do nothing but it's needed for the app to appear in  the accessibility menu in step 3)
+2. Go to `System Preferences > Security & Privacy > Accessibility > Privacy` 
+3. Tick `fn.app` under `Allow the apps below to control your computer`.
 
 
 ![preferences](https://github.com/jkbrzt/macos-fn-toggle/blob/master/privacy-settings.png)
@@ -44,7 +44,7 @@ Run the app. The fastest way to do it is from Spotlight:
 
 ## Enable Keyboard shortcut
 
-1. Goto `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` (at the end of the list) and assign a new shortcut to `fn` service
+1. Go to `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` (at the end of the list) and assign a new shortcut to `fn` service
 
 
 ![keybard-shortcut](https://github.com/jkbrzt/macos-fn-toggle/blob/master/keyboard-shortcut.png)
