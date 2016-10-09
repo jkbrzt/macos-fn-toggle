@@ -20,7 +20,10 @@ quit application "System Preferences"
 
 ## Installation
 
-Run `make install` (it copies `fn.app` to `/Applications` and `fn.workflow` to `~/Library/Services`).
+Run `make install` which installs the following files:
+
+* `/Applications/fn.app` — the app that contains the script that toggles the settings.
+* `~/Library/Services/fn.workflow` — a workflow that allows `fn.app` to be invoked with a keyboard shortcut.
 
 (You can run `make clean` to remove those files again.)
 
