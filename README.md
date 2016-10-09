@@ -52,3 +52,10 @@ Run the app. The fastest way to do it is from Spotlight:
 
 ![keybard-shortcut](https://github.com/jkbrzt/macos-fn-toggle/blob/master/keyboard-shortcut.png)
 
+
+## Contact
+
+Jakub Roztočil
+
+* http://github.com/jkbrzt
+* http://twitter.com/jkbrzt
