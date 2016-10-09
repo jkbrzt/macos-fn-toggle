@@ -20,14 +20,14 @@ quit application "System Preferences"
 
 ## Installation
 
-Run `make install` to copy `fn.app` to `/Applications` and `fn.workflow` to `~/Library/Services`.
+Run `make install` (it copies `fn.app` to `/Applications` and `fn.workflow` to `~/Library/Services`).
 
-(Run `make clean` to remove those files)
+(You can run `make clean` to remove those files again.)
 
 In OS X 10.9 (Mavericks) and later, you also need to:
 
 1. Open the `fn` app once either from spotlight or from `Applications` folder (it will do nothing but it's needed for the app to appear in  the accessibility menu in step 3)
-2. Go to `System Preferences > Security & Privacy > Accessibility > Privacy` 
+2. Go to `System Preferences` > `Security & Privacy` > `Accessibility` > `Privacy` 
 3. Tick `fn.app` under `Allow the apps below to control your computer`.
 
 
