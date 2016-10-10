@@ -5,7 +5,8 @@
 `fn-toggle.app` pragmatically toggles the
 **"Use all F1, F2, etc. keys as standard function keys"**
 option in macOS System Preferences. A task that is tedious
-when done manually, which especially programmers tend to do often.
+when done manually, which especially keyboard-heavy users,
+such as programmers, tend to do very often.
 
 ![keyboard settings](https://github.com/jkbrzt/macos-fn-toggle/blob/master/Screenshots/keyboard-settings.png)
 
