@@ -1,13 +1,13 @@
 # fn-toggle.app
 
-<img align="left" src="https://github.com/jkbrzt/macos-fn-toggle/blob/master/fn-toggle.workflow/Contents/QuickLook/Thumbnail.png">
+<img align="left" src="https://github.com/jkbrzt/macos-fn-toggle/blob/master/Logo.png">
 
 This is an Automator app that pragmatically toggles the
 **"Use all F1, F2, etc. keys as standard function keys"**
 option in macOS System Preferences. A task that is tedious
 when done manually, which especially programmers tend to do often.
 
-![keyboard settings](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/keyboard-settings.png)
+![keyboard settings](https://github.com/jkbrzt/macos-fn-toggle/blob/master/Screenshots/keyboard-settings.png)
 
 All it does is that it executes 
 [this AppleScript snippet](http://apple.stackexchange.com/questions/59178#answer-60496):
@@ -45,7 +45,7 @@ In OS X 10.9 (Mavericks) and later, you also need to:
    `Allow the apps below to control your computer`.
 
 
-![preferences](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/privacy-settings.png)
+![preferences](https://github.com/jkbrzt/macos-fn-toggle/blob/master/Screenshots/privacy-settings.png)
 
 
 ## Usage
@@ -62,7 +62,7 @@ Run the app. The fastest way to do it is from Spotlight:
    (at the end of the list) and assign a new shortcut to `fn-toggle` service
 
 
-![keybard-shortcut](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/keyboard-shortcut.png)
+![keybard-shortcut](https://github.com/jkbrzt/macos-fn-toggle/blob/master/Screenshots/keyboard-shortcut.png)
 
 
 ## Contact
