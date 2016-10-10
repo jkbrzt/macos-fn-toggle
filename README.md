@@ -1,5 +1,7 @@
 # fn-toggle.app
 
+<img align="left" src="https://github.com/jkbrzt/macos-fn-toggle/blob/master/fn-toggle.workflow/Contents/QuickLook/Thumbnail.png">
+
 This is an Automator app that pragmatically toggles the
 **"Use all F1, F2, etc. keys as standard function keys"**
 option in macOS System Preferences. A task that is tedious
@@ -7,7 +9,8 @@ when done manually, which especially programmers tend to do often.
 
 ![keyboard settings](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/keyboard-settings.png)
 
-All it does is that it executes [this AppleScript snippet](http://apple.stackexchange.com/questions/59178/toggle-use-all-f1-f2-as-standard-keys-via-script#answer-60496):
+All it does is that it executes 
+[this AppleScript snippet](http://apple.stackexchange.com/questions/59178#answer-60496):
 
 ```applescript
 tell application "System Preferences"
@@ -24,16 +27,22 @@ quit application "System Preferences"
 
 Run `make install` which installs the following files:
 
-* `/Applications/fn-toggle.app` — the app containing the script that toggles the setting.
-* `~/Library/Services/fn-toggle.workflow` — a service that allows `fn-toggle.app` to be invoked with a keyboard shortcut.
+* `/Applications/fn-toggle.app` — the app containing the script that toggles 
+  the setting.
+* `~/Library/Services/fn-toggle.workflow` — a service that allows 
+  `fn-toggle.app` to be invoked with a keyboard shortcut.
 
 (You can run `make clean` to remove those files again.)
 
 In OS X 10.9 (Mavericks) and later, you also need to:
 
-1. Open the `fn-toggle` app once either from spotlight or from `Applications` folder (it will do nothing but it's needed for the app to appear in  the accessibility menu in step 3)
-2. Go to `System Preferences` > `Security & Privacy` > `Accessibility` > `Privacy` 
-3. `Click the lock to make changes` and tick `fn-toggle.app` under `Allow the apps below to control your computer`.
+1. Open the `fn-toggle` app once either from spotlight or from `Applications` 
+   folder (it will do nothing but it's needed for the app to appear in  the 
+   accessibility menu in step 3)
+2. Go to `System Preferences` > `Security & Privacy` > `Accessibility` > 
+   `Privacy` 
+3. `Click the lock to make changes` and tick `fn-toggle.app` under 
+   `Allow the apps below to control your computer`.
 
 
 ![preferences](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/privacy-settings.png)
@@ -49,7 +58,8 @@ Run the app. The fastest way to do it is from Spotlight:
 
 ## Enable Keyboard shortcut
 
-1. Go to `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` (at the end of the list) and assign a new shortcut to `fn-toggle` service
+1. Go to `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` 
+   (at the end of the list) and assign a new shortcut to `fn-toggle` service
 
 
 ![keybard-shortcut](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/keyboard-shortcut.png)
