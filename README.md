@@ -10,7 +10,8 @@ when done manually, which especially programmers tend to do often.
 ![keyboard settings](https://github.com/jkbrzt/macos-fn-toggle/blob/master/Screenshots/keyboard-settings.png)
 
 All it does is that it executes 
-[this AppleScript snippet](http://apple.stackexchange.com/questions/59178#answer-60496):
+[this AppleScript snippet](http://apple.stackexchange.com/questions/59178#answer-60496)
+through an Automator-created app:
 
 ```applescript
 tell application "System Preferences"
