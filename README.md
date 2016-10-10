@@ -2,7 +2,7 @@
 
 <img align="left" src="https://github.com/jkbrzt/macos-fn-toggle/blob/master/Logo.png">
 
-This is an Automator app that pragmatically toggles the
+`fn-toggle.app` pragmatically toggles the
 **"Use all F1, F2, etc. keys as standard function keys"**
 option in macOS System Preferences. A task that is tedious
 when done manually, which especially programmers tend to do often.
