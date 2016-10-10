@@ -5,6 +5,8 @@ This is an Automator app that toggles the
 option in macOS System Preferences. A task that is tedious
 when done often (which programmers tend to do).
 
+![keyboard settings](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/keyboard-settings.png)
+
 All it does is that it executes [this AppleScript snippet](http://apple.stackexchange.com/questions/59178/toggle-use-all-f1-f2-as-standard-keys-via-script#answer-60496):
 
 ```applescript
@@ -34,7 +36,7 @@ In OS X 10.9 (Mavericks) and later, you also need to:
 3. `Click the lock to make changes` and tick `fn.app` under `Allow the apps below to control your computer`.
 
 
-![preferences](https://github.com/jkbrzt/macos-fn-toggle/blob/master/privacy-settings.png)
+![preferences](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/privacy-settings.png)
 
 
 ## Usage
@@ -50,7 +52,7 @@ Run the app. The fastest way to do it is from Spotlight:
 1. Go to `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` (at the end of the list) and assign a new shortcut to `fn` service
 
 
-![keybard-shortcut](https://github.com/jkbrzt/macos-fn-toggle/blob/master/keyboard-shortcut.png)
+![keybard-shortcut](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/keyboard-shortcut.png)
 
 
 ## Contact
