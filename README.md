@@ -1,4 +1,4 @@
-# fn.app
+# fn-toggle.app
 
 This is an Automator app that pragmatically toggles the
 **"Use all F1, F2, etc. keys as standard function keys"**
@@ -24,8 +24,8 @@ quit application "System Preferences"
 
 Run `make install` which installs the following files:
 
-* `/Applications/fn.app` — the app containing the script that toggles the setting.
-* `~/Library/Services/fn.workflow` — a service that allows `fn.app` to be invoked with a keyboard shortcut.
+* `/Applications/fn-toggle.app` — the app containing the script that toggles the setting.
+* `~/Library/Services/fn.workflow` — a service that allows `fn-toggle.app` to be invoked with a keyboard shortcut.
 
 (You can run `make clean` to remove those files again.)
 
@@ -33,7 +33,7 @@ In OS X 10.9 (Mavericks) and later, you also need to:
 
 1. Open the `fn` app once either from spotlight or from `Applications` folder (it will do nothing but it's needed for the app to appear in  the accessibility menu in step 3)
 2. Go to `System Preferences` > `Security & Privacy` > `Accessibility` > `Privacy` 
-3. `Click the lock to make changes` and tick `fn.app` under `Allow the apps below to control your computer`.
+3. `Click the lock to make changes` and tick `fn-toggle.app` under `Allow the apps below to control your computer`.
 
 
 ![preferences](https://github.com/jkbrzt/macos-fn-toggle/blob/master/screenshots/privacy-settings.png)
@@ -44,7 +44,7 @@ In OS X 10.9 (Mavericks) and later, you also need to:
 Run the app. The fastest way to do it is from Spotlight:
 
 1. Press `⌘ + space` (or similar) to open Spotlight.
-2. Type `fn`, `fn.app` should be the Top Hit.
+2. Type `fn`, `fn-toggle.app` should be the Top Hit.
 3. Hit `Enter`.
 
 ## Enable Keyboard shortcut

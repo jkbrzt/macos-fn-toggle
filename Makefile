@@ -1,7 +1,7 @@
 install: clean
-	cp -r fn.app /Applications/
-	cp -r fn.workflow ~/Library/Services/
+	cp -r fn-toggle.app /Applications/
+	cp -r fn-toggle.workflow ~/Library/Services/
 
 clean:
-	rm -rf /Applications/fn.app
-	rm -rf ~/Library/Services/fn.workflow
+	rm -rf /Applications/{fn,fn-toggle}.app
+	rm -rf ~/Library/Services/{fn,fn-toggle}.workflow
