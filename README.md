@@ -73,3 +73,9 @@ Jakub Roztočil
 
 * http://github.com/jkbrzt
 * http://twitter.com/jkbrzt
+
+
+## Alternatives
+
+* https://github.com/Pyroh/Fluor — a really nice menubar application that allows you to automatically change the behaviour of the keyboard's fn keys depending on the active application.
+
