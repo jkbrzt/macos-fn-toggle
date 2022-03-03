@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>512</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>tell application "System Preferences"	reveal anchor "keyboardTab" of pane "com.apple.preference.keyboard"end telltell application "System Events" to tell process "System Preferences"	click checkbox 1 of tab group 1 of window 1end tellquit application "System Preferences"</string>
+					<string>tell application "System Preferences"	reveal anchor "keyboardTab" of pane "com.apple.preference.keyboard"end telldelay 0.5tell application "System Events" to tell process "System Preferences"	click checkbox 3 of tab group 1 of window 1end tellquit application "System Preferences"</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>271.500000:316.000000</string>
+				<string>309.000000:315.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
