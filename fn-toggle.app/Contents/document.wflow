@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>521.1</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -51,33 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>tell application "System Settings"
-	
-	reveal anchor "Shortcuts" of pane "Keyboard"
-	activate
-end tell
-
-tell application "System Events" to tell process "System Settings"
-	set timeoutSeconds to 5
-	set totalDelay to 0
-	repeat while not (exists sheet 1 of window 1)
-		delay 0.1
-		set totalDelay to totalDelay + 0.1
-		if totalDelay &gt; timeoutSeconds then
-			error "keyboard modal did not appear within " &amp; timeoutSeconds &amp; " seconds."
-		end if
-	end repeat
-	
-	
-	tell splitter group 1 of group 1 of sheet 1 of window 1
-		select row 11 of outline 1 of scroll area 1 of group 1
-		click checkbox 1 of group 1 of scroll area 1 of group 2
-		click button -1 of group 2
-	end tell
-end tell
-delay 0.3 -- Wait for save to complete
-quit application "System Settings"
-</string>
+					<string>tell application "System Settings"		reveal anchor "Shortcuts" of pane "Keyboard"	activateend telltell application "System Events" to tell process "System Settings"	set timeoutSeconds to 5	set totalDelay to 0	repeat while not (exists sheet 1 of window 1)		delay 0.1		set totalDelay to totalDelay + 0.1		if totalDelay &gt; timeoutSeconds then			error "keyboard modal did not appear within " &amp; timeoutSeconds &amp; " seconds."		end if	end repeat			tell splitter group 1 of group 1 of sheet 1 of window 1		select row 11 of outline 1 of scroll area 1 of group 1		click checkbox 1 of group 1 of scroll area 1 of group 2		click button -1 of group 2	end tellend telldelay 0.3 -- Wait for save to completequit application "System Settings"</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -131,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>271.500000:316.000000</string>
+				<string>309.000000:315.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
